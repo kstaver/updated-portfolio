@@ -19,7 +19,7 @@ function stars(){
 
         scene.appendChild(star);
         i++;
-    }
-}
+    };
+};
 
 stars();
