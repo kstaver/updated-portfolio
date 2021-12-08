@@ -21,5 +21,4 @@ function stars(){
         i++;
     };
 };
-
 stars();
