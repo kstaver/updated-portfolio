@@ -14,7 +14,7 @@ function App() {
         <ReactiveButton
             buttonState={state}
             onClick={onClickHandler}
-            color={'primary'}
+            color={'dark'}
             idleText={'Button'}
             loadingText={'Loading'}
             successText={'Success'}
@@ -23,9 +23,9 @@ function App() {
             className={'class1 class2'}
             style={{ borderRadius: '5px' }}
             outline={false}
-            shadow={false}
+            shadow={true}
             rounded={false}
-            size={'normal'}
+            size={'large'}
             block={false}
             messageDuration={2000}
             disabled={false}
