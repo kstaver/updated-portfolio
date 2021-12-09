@@ -21,4 +21,7 @@ function stars(){
         i++;
     };
 };
+
 stars();
+window.addEventListener('resize', stars);
+
