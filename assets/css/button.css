@@ -1,7 +1,7 @@
 *
 a.button1{
     display: inline-block;
-    padding: 0.35em 1.2em;
+    padding: 0.5em 3em;
     border: 0.1em solid #FFF;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
@@ -23,30 +23,8 @@ a.button1:hover{
         margin: 0.4em auto;
     }
 }
+/*
 .bouncy{
     animation: bounce 5s infinite linear;
     position: relative;
-}
-@keyframes bounce{
-    0%{
-        top: 0em;
-    }
-    40%{
-        top: 0em;
-    }
-    43%{
-        top: -0.9em;
-    }
-    46%{
-        top: 0em;
-    }
-    48%{
-        top: -0.4em
-    }
-    50%{
-        top:0em
-    }
-    100%{
-        top:0em
-    }
 }
