@@ -10,12 +10,13 @@ function App() {
             setState('success');
         }, 2000);
     };
+
    return (
         <ReactiveButton
             buttonState={state}
             onClick={onClickHandler}
             color={'dark'}
-            idleText={'Button'}
+            idleText={'Enter'}
             loadingText={'Loading'}
             successText={'Success'}
             errorText={'Error'}
@@ -24,7 +25,7 @@ function App() {
             style={{ borderRadius: '5px' }}
             outline={false}
             shadow={true}
-            rounded={false}
+            rounded={true}
             size={'large'}
             block={false}
             messageDuration={2000}
