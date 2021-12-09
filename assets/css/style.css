@@ -4,11 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 100%;
-    height: 100vw;
-    background-color: radial-gradient(#2e1b35, #0d090f);
-}
 .scene{
     position: relative;
     padding: 100px;
@@ -37,36 +32,3 @@
         transform: translateY(-100px);
     }
 }
-/*
-@media screen and (max-width: 1330px){
-    .scene{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background: radial-gradient(#2e1b35, #0d090f);
-        overflow: hidden;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .scene{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background: radial-gradient(#2e1b35, #0d090f);
-        overflow: hidden;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .scene{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background: radial-gradient(#2e1b35, #0d090f);
-        overflow: hidden;
-    }
-}*/
