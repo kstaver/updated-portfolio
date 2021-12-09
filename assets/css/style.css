@@ -31,3 +31,93 @@
         transform: translateY(-100px);
     }
 }
+
+@media screen and (max-width: 1330px){
+    .scene{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background: radial-gradient(#2e1b35, #0d090f);
+        overflow: hidden;
+    }
+    .scene i{
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        animation: linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        10%,90%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .scene{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background: radial-gradient(#2e1b35, #0d090f);
+        overflow: hidden;
+    }
+    .scene i{
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        animation: animate linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        10%,90%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .scene{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background: radial-gradient(#2e1b35, #0d090f);
+        overflow: hidden;
+    }
+    .scene i{
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        animation: animate linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        10%,90%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+    }
+}
