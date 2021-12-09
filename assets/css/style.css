@@ -31,7 +31,7 @@
         transform: translateY(-100px);
     }
 }
-
+/*
 @media screen and (max-width: 1330px){
     .scene{
         position: relative;
@@ -63,4 +63,4 @@
         background: radial-gradient(#2e1b35, #0d090f);
         overflow: hidden;
     }
-}
+}*/
